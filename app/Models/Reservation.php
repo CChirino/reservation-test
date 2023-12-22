@@ -14,7 +14,8 @@ class Reservation extends Model
 
     protected $fillable = [
         'room',
-        'available-version'
+        'available-version',
+        'user_id'
     ];
 
     public function room()
